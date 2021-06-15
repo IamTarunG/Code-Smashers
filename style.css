@@ -40,6 +40,9 @@ header {
   padding: 0px 2em;
   font-weight: bold;
 }
+.nav-links:hover {
+  color: #ffed4a;
+}
 
 .img-code {
   background-image: url("code.jpg");
