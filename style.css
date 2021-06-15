@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  background-color: #f23557;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.title {
+  font-weight: bold;
+  padding: 0px 2em;
+  font-size: 2em;
+}
+
+.title-link {
+  text-decoration: none;
+}
+
+.first {
+  color: white;
+}
+.second {
+  color: #ffed4a;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0px 2em;
+  font-weight: bold;
+}
+
+.img-code {
+  background-image: url("code.jpg");
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.content span {
+  color: #ffed4a;
+
+  font-weight: bold;
+}
+.container {
+  background-color: #f23557;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  border: 2px solid #ffed4a;
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #ffed4a;
+}
+
+.img1 {
+  background-image: url("code2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.content1 {
+  padding: 10px 10px;
+  font-weight: 300;
+}
+.box2 {
+  border: 2px solid #ffed4a;
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #ffed4a;
+}
+
+.img2 {
+  background-image: url("code3.jpg");
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.content2 {
+  padding: 10px 10px;
+  font-weight: 300;
+}
+.box3 {
+  border: 2px solid #ffed4a;
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #ffed4a;
+}
+
+.img3 {
+  background-image: url("code4.jpg");
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.content3 {
+  padding: 10px 10px;
+  font-weight: 300;
+}
+
+.title1 {
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 2em;
+}
+.title2 {
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 2em;
+}
+.title3 {
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 2em;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(36, 35, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer span a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header,
+  body {
+    width: 100%;
+    background-color: #f23557;
+    position: relative;
+    right: 0;
+  }
+  .title {
+    font-weight: bold;
+    /* padding: 0px 10px; */
+    font-size: 12px;
+  }
+  .nav-links {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 2px 2px;
+    font-weight: bold;
+
+    flex-basis: 100%;
+    font-size: 10px;
+  }
+  .img-code {
+    background-image: url("code.jpg");
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .container {
+    display: block;
+    padding: 2px 2px;
+  }
+  .box1 {
+    border: 2px solid #ffed4a;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #ffed4a;
+    margin: 5px 2px;
+  }
+  .box2 {
+    border: 2px solid #ffed4a;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #ffed4a;
+    margin: 5px 2px;
+  }
+  .box3 {
+    border: 2px solid #ffed4a;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #ffed4a;
+    margin: 5px 2px;
+  }
+  footer {
+    font-size: 15px;
+  }
+}
