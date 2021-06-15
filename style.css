@@ -185,8 +185,8 @@ footer span a {
   body {
     width: 100%;
     background-color: #f23557;
-    position: relative;
-    right: 0;
+    position: sticky;
+    top: 0;
   }
   .title {
     font-weight: bold;
@@ -200,7 +200,6 @@ footer span a {
     padding: 2px 2px;
     font-weight: bold;
 
-    flex-basis: 100%;
     font-size: 10px;
   }
   .img-code {
@@ -249,6 +248,6 @@ footer span a {
     margin: 5px 2px;
   }
   footer {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
